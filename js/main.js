@@ -119,7 +119,7 @@ function createEditTable() {
 function deleteAccount() {
   id = this.getAttribute('data-id');
   let question = confirm(
-    'Da li ste sigurni da zelite da izbrisete ovog korisnika?'
+    'Are you sure you want to delete this user?'
   );
   if (question == true) {
     db.splice(id, 1);
