@@ -1,0 +1,18 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form-control:focus {
+  box-shadow: none;
+}
+input {
+  margin-bottom: 20px;
+}
+#formView {
+  display: none;
+}
+#editFormView {
+  display: none;
+}
+#editBtnView {
+  display: none;
+}
